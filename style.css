@@ -1,0 +1,115 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #cafac4; /* Adicionando uma cor de fundo para o corpo */
+    color: #032709;
+}
+
+/* Estilos do cabeçalho */
+.cabecalho {
+    background-color: #05091f; /* Mudando a cor de fundo do cabeçalho */
+    color: #fff; /* Mudando a cor do texto para branco */
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.cabecalho-imagem {
+    width: 100px;
+    height: auto;
+}
+
+.cabecalho-nav {
+    margin-left: auto;
+}
+
+.cabecalho-lista {
+    list-style: none;
+    display: flex;
+}
+
+.cabecalho-lista-item {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+/* Estilos da seção "escola" */
+.escola {
+    padding: 20px;
+    text-align: center; /* Centralizar o conteúdo */
+}
+
+.escola-titulo {
+    font-size: 28px; /* Aumentando o tamanho da fonte */
+    margin-bottom: 20px; /* Adicionando espaçamento abaixo do título */
+}
+
+.escola-texto-um {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.escola-imagem {
+    width: 80%; /* Reduzindo o tamanho da imagem da escola */
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Estilos da seção "estudante" */
+.estudante {
+    padding: 20px;
+    background-color: #cafac4;
+}
+
+.estudante-todos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Alinhando os alunos ao centro */
+}
+
+.aluno {
+    width: 220px; /* Reduzindo o tamanho do aluno */
+    border: 1px solid #000000;
+    border-radius: 8px; /* Adicionando borda arredondada */
+    padding: 10px;
+    text-align: center; /* Centralizando o conteúdo */
+}
+
+.aluno h3 {
+    margin-top: 0; /* Removendo o espaço acima do nome do aluno */
+}
+
+.imagem-estudante {
+    width: 150px; /* Reduzindo o tamanho da imagem do aluno */
+    height: auto;
+}
+
+.imagem-estudante,
+.instagram-logo {
+    display: block;
+    margin: 10px auto; /* Centralizando as imagens e logos */
+}
+
+.aluno p {
+    font-size: 14px; /* Ajustando o tamanho da fonte do texto do aluno */
+}
+
+/* Estilos para o rodapé */
+.informacoes-adicionais {
+    padding: 20px;
+    background-color: #cafac4;
+}
+.instagram-logo {
+    width: 30px; /* Definindo o tamanho da logo do Instagram */
+    height: auto;
+}
+.instagram-logo {
+    width: 40px; /* Definindo o tamanho da logo do Instagram */
+    height: auto;
+}
+a {
+    color: white;
+}
